@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+.env*.local
+worker/.dev.vars
+worker/.wrangler
+next-env.d.ts
+*.tsbuildinfo

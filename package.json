@@ -1,0 +1,23 @@
+{
+  "name": "lock-in",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "worker:dev": "cd worker && npx wrangler dev --test-scheduled",
+    "worker:deploy": "cd worker && npx wrangler deploy"
+  },
+  "dependencies": {
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "~5.9.0"
+  }
+}
